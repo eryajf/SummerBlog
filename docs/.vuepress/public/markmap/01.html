@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(function anonymous(
+) {
+const toolbar = new markmap.Toolbar();
+toolbar.attach(mm);
+const el = toolbar.render();
+el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+// document.body.append(el);
+})</script><script>((getMarkmap, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', null, data);
+      })(() => window.markmap,{"t":"heading","d":1,"p":{},"v":"linux命令","c":[{"t":"heading","d":2,"p":{},"v":"文件管理","c":[{"t":"heading","d":3,"p":{},"v":"ls"},{"t":"heading","d":3,"p":{},"v":"mkdir"},{"t":"heading","d":3,"p":{},"v":"rmdir"},{"t":"heading","d":3,"p":{},"v":"mv"},{"t":"heading","d":3,"p":{},"v":"cp"},{"t":"heading","d":3,"p":{},"v":"pwd"}]},{"t":"heading","d":2,"p":{},"v":"文档编辑","c":[{"t":"heading","d":3,"p":{},"v":"cat"},{"t":"heading","d":3,"p":{},"v":"tail"},{"t":"heading","d":3,"p":{},"v":"more"},{"t":"heading","d":3,"p":{},"v":"less"}]},{"t":"heading","d":2,"p":{},"v":"系统管理","c":[{"t":"heading","d":3,"p":{},"v":"pidof"}]},{"t":"heading","d":2,"p":{},"v":"磁盘管理","c":[{"t":"heading","d":3,"p":{},"v":"df"}]},{"t":"heading","d":2,"p":{},"v":"网络通讯","c":[{"t":"heading","d":3,"p":{},"v":"netstat"},{"t":"heading","d":3,"p":{},"v":"ssh"},{"t":"heading","d":3,"p":{},"v":"ping"},{"t":"heading","d":3,"p":{},"v":"ifconfig"},{"t":"heading","d":3,"p":{},"v":"dhclient"}]},{"t":"heading","d":2,"p":{},"v":"备份压缩","c":[{"t":"heading","d":3,"p":{},"v":"zip"},{"t":"heading","d":3,"p":{},"v":"tar"}]},{"t":"heading","d":2,"p":{},"v":"其他","c":[{"t":"heading","d":3,"p":{},"v":"seq"}]}]})</script>
+</body>
+</html>
