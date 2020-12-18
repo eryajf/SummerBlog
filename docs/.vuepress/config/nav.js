@@ -33,6 +33,7 @@ module.exports = [
     items: [
       {text: '关于', link: '/about/'},
       {text: '思维', link: '/miss/'},
+      {text: '命令', link: '/minling/'},
       {text: '友链', link: '/friends/'},
     ]
   },
