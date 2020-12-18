@@ -43,7 +43,7 @@ module.exports = {
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
-    editLinks: false, // 启用编辑
+    editLinks: true, // 启用编辑
     editLinkText: '编辑',
 
     //*** 以下配置是Vdoing主题改动和新增的配置 ***//
@@ -92,6 +92,11 @@ module.exports = {
           iconClass: 'icon-youjian',
           title: '发邮件',
           link: 'mailto:1340904087@qq.com'
+        },
+        {
+          iconClass: 'icon-erji',
+          title: '听音乐',
+          link: 'https://y.music.163.com/m/playlist?app_version=8.0.01&id=95179321&userid=84130374&creatorId=84130374',
         },
         {
           iconClass: 'icon-github',
@@ -207,8 +212,8 @@ module.exports = {
           const moment = require('moment') // https://momentjs.com/
           return moment(timestamp).format('YYYY/MM/DD, H:MM:SS');
         }
-      }
-    ]
+      },
+    ],
   ],
   
   // configureWebpack: {
