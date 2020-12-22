@@ -13,7 +13,7 @@ module.exports = [
     link: '/technology/',
   },
   {
-    text: '🤷‍♂️学习', 
+    text: '😊学习', 
     link: '/study/',
     items: [
       {text: 'k8s', link: '/pages/06530f/'},
@@ -28,7 +28,7 @@ module.exports = [
   },
   // {text: '😊关于', link: '/about/'},
   {
-    text: '😊更多',
+    text: '🤷‍♂️更多',
     link: '/about/',
     items: [
       {text: '关于', link: '/about/'},

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(function anonymous(
+) {
+const toolbar = new markmap.Toolbar();
+toolbar.attach(mm);
+const el = toolbar.render();
+// el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+document.body.append(el);
+})</script><script>((getMarkmap, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', null, data);
+      })(() => window.markmap,{"t":"heading","d":1,"p":{},"v":"python","c":[{"t":"heading","d":2,"p":{},"v":"基础知识","c":[{"t":"heading","d":3,"p":{},"v":"注释","c":[{"t":"heading","d":4,"p":{},"v":"单行"},{"t":"heading","d":4,"p":{},"v":"多行"},{"t":"heading","d":4,"p":{},"v":"中文编码声明"}]},{"t":"heading","d":3,"p":{},"v":"代码缩进"},{"t":"heading","d":3,"p":{},"v":"编码规范","c":[{"t":"heading","d":4,"p":{},"v":"编写规则"},{"t":"heading","d":4,"p":{},"v":"命名规范"}]},{"t":"heading","d":3,"p":{},"v":"基本输入与输出","c":[{"t":"heading","d":4,"p":{},"v":"使用print()函数输出"},{"t":"heading","d":4,"p":{},"v":"使用inprint()函数输入"}]},{"t":"heading","d":3,"p":{},"v":"保留字与标识符","c":[{"t":"heading","d":4,"p":{},"v":"保留字"},{"t":"heading","d":4,"p":{},"v":"标识符"}]},{"t":"heading","d":3,"p":{},"v":"变量","c":[{"t":"heading","d":4,"p":{},"v":"变量的定义与使用"}]},{"t":"heading","d":3,"p":{},"v":"基本数据类型","c":[{"t":"heading","d":4,"p":{},"v":"数字"},{"t":"heading","d":4,"p":{},"v":"字符串"},{"t":"heading","d":4,"p":{},"v":"布尔"},{"t":"heading","d":4,"p":{},"v":"数据类型转换"}]},{"t":"heading","d":3,"p":{},"v":"运算符","c":[{"t":"heading","d":4,"p":{},"v":"算术"},{"t":"heading","d":4,"p":{},"v":"赋值"},{"t":"heading","d":4,"p":{},"v":"比较"},{"t":"heading","d":4,"p":{},"v":"逻辑"},{"t":"heading","d":4,"p":{},"v":"位"},{"t":"heading","d":4,"p":{},"v":"运算符的优先级"}]},{"t":"heading","d":3,"p":{},"v":"流程控制语句","c":[{"t":"heading","d":4,"p":{},"v":"程序结构"},{"t":"heading","d":4,"p":{},"v":"选择语句"},{"t":"heading","d":4,"p":{},"v":"条件表达式"},{"t":"heading","d":4,"p":{},"v":"循环语句"},{"t":"heading","d":4,"p":{},"v":"跳转语句"},{"t":"heading","d":4,"p":{},"v":"pass语句"}]}]},{"t":"heading","d":2,"p":{},"v":"进阶知识","c":[{"t":"heading","d":3,"p":{},"v":"常用数据结构","c":[{"t":"heading","d":4,"p":{},"v":"序列"},{"t":"heading","d":4,"p":{},"v":"列表"},{"t":"heading","d":4,"p":{},"v":"元组"},{"t":"heading","d":4,"p":{},"v":"字典"}]},{"t":"heading","d":3,"p":{},"v":"字符串操作"},{"t":"heading","d":3,"p":{},"v":"异常处理"},{"t":"heading","d":3,"p":{},"v":"函数"},{"t":"heading","d":3,"p":{},"v":"面向对象"}]},{"t":"heading","d":2,"p":{},"v":"高级篇","c":[{"t":"heading","d":3,"p":{},"v":"模块"},{"t":"heading","d":3,"p":{},"v":"文件目录操作"},{"t":"heading","d":3,"p":{},"v":"数据库操作"}]}]})</script>
+</body>
+</html>
