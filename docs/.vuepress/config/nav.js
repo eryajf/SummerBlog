@@ -24,6 +24,7 @@ module.exports = [
       {text: 'elasticsearch', link: '/pages/527279/'},
       {text: 'prometheus', link: '/pages/332591/'},
       {text: 'mysql', link: '/pages/f78c0f/'},
+      {text: 'ansible', link: '/pages/182d53/'},
     ]
   },
   // {text: '😊关于', link: '/about/'},
