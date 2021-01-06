@@ -70,7 +70,7 @@ export default {
     },
     runTime(){
       let d = new Date(), str = '',
-      BirthDay = new Date("March 3,2020"),
+      BirthDay = new Date("October 1,2019"),
       today = new Date(),
       timeold = (today.getTime() - BirthDay.getTime()),
       sectimeold = timeold / 1000,

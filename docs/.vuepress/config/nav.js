@@ -18,13 +18,10 @@ module.exports = [
     items: [
       {text: 'k8s', link: '/pages/06530f/'},
       {text: 'shell', link: '/pages/2b7108/'},
-      {text: 'zabbix', link: '/pages/0c0a9e/'},
       {text: 'python', link: '/pages/b5e154/'},
       {text: 'redis', link: '/pages/69521d/'},
       {text: 'elasticsearch', link: '/pages/527279/'},
-      {text: 'prometheus', link: '/pages/332591/'},
       {text: 'mysql', link: '/pages/f78c0f/'},
-      {text: 'ansible', link: '/pages/182d53/'},
     ]
   },
   // {text: '😊关于', link: '/about/'},
