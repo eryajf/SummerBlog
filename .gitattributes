@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.html linguist-language=VuePress
+*.md linguist-language=DevOps
+*.js linguist-language=敏捷运维
