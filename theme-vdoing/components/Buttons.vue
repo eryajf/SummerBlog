@@ -1,12 +1,12 @@
 <template>
   <div class="buttons">
     <transition name="fade">
-      <div
+      <!-- <div
         title="返回顶部"
         class="button blur go-to-top iconfont icon-fanhuidingbu"
         v-show="showToTop"
         @click="scrollToTop"
-      />
+      /> -->
     </transition>
     <div
       title="去评论"
