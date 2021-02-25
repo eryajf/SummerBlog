@@ -1,5 +1,5 @@
 module.exports = [
-  {text: '首页', link: 'https://www.xswsym.online/tuchuang/'},
+  {text: '酷炫主页', link: 'https://www.xswsym.online/tuchuang/'},
   {
     text: '✨运维',
     link: '/web/',  
