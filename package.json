@@ -7,10 +7,20 @@
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
     "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
-    "publish": "cd theme-vdoing && npm publish && cd ../ && npm update vuepress-theme-vdoing"
+    "publish": "cd theme-vdoing && npm publish && cd ../ && npm update vuepress-theme-vdoing",
+    "decrypt": "encrypt decrypt --source-dir docs --key-file keys.json --temp .temp-encrypt",
+    "encrypt": "encrypt encrypt --source-dir docs --key-file keys.json --temp .temp-encrypt",
+    "check": "encrypt --source-dir site --key-file keys.json --temp .temp-encrypt check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run check"
+    }
   },
   "license": "MIT",
   "devDependencies": {
+    "@oak-tree-house/vuepress-plugin-encrypt": "^1.0.1",
+    "husky": "^5.1.3",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "moment": "^2.25.3",
