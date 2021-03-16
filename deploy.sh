@@ -37,4 +37,4 @@ fi
 for i in `seq 1 20`
 do
   curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=www.xswsym.online&token=W180K19QCHkwdjCz"
-done
+done 
