@@ -18,7 +18,7 @@ zip -q -r dist.zip dist/
 scp dist.zip root@180.215.201.38:/www/wwwroot/update/
 
 # 远程执行
-ssh root@180.215.201.38 "/www/wwwroot/update/update.sh"
+ssh root@ip "/www/wwwroot/update/update.sh"
 
 popd >/dev/null 2>&1
 ##########################
