@@ -15,7 +15,7 @@ rm  -rf dist.zip
 zip -q -r dist.zip dist/
 
 # ssh
-scp dist.zip root@180.215.201.38:/www/wwwroot/update/
+scp dist.zip root@IP:/www/wwwroot/update/
 
 # 远程执行
 ssh root@ip "/www/wwwroot/update/update.sh"
