@@ -10,7 +10,7 @@
     "publish": "cd theme-vdoing && npm publish && cd ../ && npm update vuepress-theme-vdoing",
     "decrypt": "encrypt decrypt --source-dir docs --key-file keys.json --temp .temp-encrypt",
     "encrypt": "encrypt encrypt --source-dir docs --key-file keys.json --temp .temp-encrypt",
-    "check": "encrypt --source-dir site --key-file keys.json --temp .temp-encrypt check"
+    "check": "encrypt --source-dir docs --key-file keys.json --temp .temp-encrypt check"
   },
   "husky": {
     "hooks": {

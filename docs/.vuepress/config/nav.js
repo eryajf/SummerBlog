@@ -22,6 +22,7 @@ module.exports = [
       {text: 'redis', link: '/pages/69521d/'},
       {text: 'elasticsearch', link: '/pages/527279/'},
       {text: 'mysql', link: '/pages/f78c0f/'},
+      {text: 'ceph', link: '/pages/fd1213/'},
       {text: 'spark', link: '/pages/74209d/'},
     ]
   },
