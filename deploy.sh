@@ -47,3 +47,15 @@ done
 
 
 
+
+
+
+pushd /home  >/dev/null 2>&1
+
+rm  -rf dist 
+
+echo "开始覆盖解压"
+
+unzip -o dist.zip -d /home/xsw/
+
+popd >/dev/null 2>&1
