@@ -41,7 +41,7 @@ module.exports = {
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // .md文件放在了docs目录下
-    editLinks: false, // 启用编辑链接
+    editLinks: true, // 启用编辑链接
     editLinkText: '编辑',
 
     //*** 以下配置是Vdoing主题改动和新增的配置 ***//
@@ -179,6 +179,7 @@ module.exports = {
         choosen: 'valine',
         options: {
           el: '#valine-vuepress-comment',
+          // visitor: true,
           appId: 'aDitb2k5Qheh7PnQ8jMlEgfN-gzGzoHsz',
           appKey: 'kBzJge35rq4Et8PzhgqOBnI9',
           avatar: 'monsterid',
