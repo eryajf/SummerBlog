@@ -9,7 +9,7 @@
 
 
 ### 🎨Theme
-本站主题是 [`Vdoing`](https://github.com/xugaoyi/vuepress-theme-vdoing)，这是一款简洁高效的VuePress 知识管理&博客主题。我在GitHub上无意间探索并喜欢上了这款主题，感谢大佬的开源分享！更多[详情](https://github.com/xugaoyi/vuepress-theme-vdoing)。
+本站主题 [`Vdoing`](https://github.com/xugaoyi/vuepress-theme-vdoing)，一款简洁高效的VuePress 知识管理&博客主题。我在GitHub上无意间探索并喜欢上了这款主题，感谢大佬的开源分享！更多[详情](https://github.com/xugaoyi/vuepress-theme-vdoing)。
 
 
 ### 🐱‍Me
@@ -29,6 +29,5 @@ Devops运维小白
 - **Email**:  <a href="mailto:1340904087@qq.com">1340904087@qq.com</a>
 - **GitHub**: <https://github.com/summerking1>
 
-:::tip
+
 文章内容仅记录我个人工作生活的小总结，如有误欢迎指正。
-:::
