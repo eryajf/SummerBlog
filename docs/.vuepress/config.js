@@ -116,7 +116,9 @@ module.exports = {
        excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
     ['fulltext-search'], //全文搜索
-    ['@oak-tree-house/encrypt'], //加密
+    // ['@oak-tree-house/encrypt'], //加密
+    // ['reading-progress']  // 阅读进度条
+    // ['@vuepress/nprogress'], //默认为true，设置为false可以关闭进度条
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {
