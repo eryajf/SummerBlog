@@ -5,7 +5,7 @@
 
 >博主：summer-夏苏文
 
-
+[欢迎访问图床首页](https://www.xswsym.online/tuchuang)
 
 
 ### 🎨Theme
@@ -13,10 +13,11 @@
 
 
 ### 🐱‍Me
-Devops运维小白
+Devops前行者
+cepher检察官
 
 #### 技能
-* 熟悉 Docker、K8s、Prometheus、Zabbix、Elasticsearch、Redis、Mysql、Spark、springcloud等组件的安装部署与运维
+* 熟悉 Ceph、Ftp、Nfs、Cifs、Docker、K8s、Prometheus、Zabbix、Elasticsearch、Redis、Mysql、Spark、springcloud等相关组件的安装部署与运维管理
 * 了解 centos、windows、ubuntu 等服务器相关操作方式
   
 
